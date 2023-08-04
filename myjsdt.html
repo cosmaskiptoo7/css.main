@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+let fname ="John";
+let lname ="Ng'ang'a";
+let fullname = fname + " " + lname;
+
+console.log(fullname);
+// accessing methods/operations
+console.log(fullname.toUpperCase("fullname"));
+console.log(fullname.endsWith("n"));
+console.log(fullname.repeat(4));
+fullname = fullname.replace(fname ,'edu');   
+console.log(fullname);
+console.log(fullname.includes("n"));
+console.log(fullname.charAt(3));
+console.log(fullname.slice(6,14));
+
+let array1=['joy', 'cate', 'alice', 'sheila', 'brigid', 'stela', 'diana', 'caro'];
+let array2=['cosmas', 'john', 'jack', 'ken', 'francis','leo','jose','jude','joe'];
+
+
+arraytotal=array1.concat(array2);
+console.log(arraytotal);
+console.log(arraytotal.slice(7))
+console.log(arraytotal.shift())
+console.log(arraytotal.push('biwot','festus','edwin'));
+    // console.log(arraytotal.indexOf('jack'))
+    // console.log(arraytotal.filter('jack'))
+    // console.log(arraytotal.indexOf('jack'))
+    let sourceArray=['cos','leo', 'lui','fes', 'ted','bil']
+    let extractedArray=[sourceArray.slice(2,5)]
+    // let modifiedArray=[extractedArray.splice(0,3,'x','y','z')]
+    console.log(sourceArray)
+    console.log(extractedArray)
+    // console.log(modifiedArray)
+    </script>
+</body>
+</html>

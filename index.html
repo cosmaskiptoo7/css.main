@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Document</title>
+  <style>
+   
+
+    .container {
+      background-image: url(bc.jpeg);
+      width: 100%;
+      height: auto;
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: flex;
+      position: relative;
+      border-top-left-radius: 27px;
+      border-top-right-radius: 27px;
+      /* border-bottom-right-radius: 100px; */
+    }
+
+    .container .nav {
+      background-color: blueviolet;
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: 900px;
+      position: relative;
+      display: flex;
+      opacity: 80%;
+      /* border-bottom-right-radius: 100px; */
+
+      border-top-left-radius: 27px;
+      border-top-right-radius: 27px;
+    }
+
+    .container .nav .logo .a {
+      display: flex;
+      position: absolute;
+      top: 3.2%;
+      left: 2%;
+    }
+
+
+    .container .nav .logo h1 {
+      display: flex;
+      position: absolute;
+      display: inline;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      top: 0%;
+      left: 4%;
+      color: white;
+    }
+
+    .container .nav .logo p {
+      display: flex;
+      position: absolute;
+      display: inline;
+      top: 4%;
+      left: 4%;
+      color: white;
+
+
+    }
+
+    .container .nav .navbar {
+      width: 100%;
+      height: 930%;
+      top: 2%;
+      left: 45%;
+      position: relative;
+      display: flex;
+    }
+
+    .container .nav .navbar a {
+      float: left;
+      font-size: 16px;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    .container .nav .navbar .dropbtn {
+      display: flex;
+      font-size: 16px;
+      border: none;
+      outline: none;
+      color: white;
+      padding: 14px 16px;
+      background-color: inherit;
+      font-family: inherit;
+      margin: 0;
+    }
+
+    .container .nav .search {
+      position: absolute;
+      display: flex;
+      left: 80.5%;
+      top: 4%;
+    }
+
+     .container .nav .user {
+      position: absolute;
+      display: flex;
+      left: 82%;
+      top: 4%;
+    }
+
+    .container .nav .log {
+      position: absolute;
+      display: flex;
+      left: 83%;
+      top: 4%;
+      color: white;
+    }
+
+    .container .nav .moon {
+      position: absolute;
+      display: flex;
+      left: 85.7%;
+      top: 4%;
+      color: #f3f2f2;
+    }
+
+    .container .nav .line {
+      position: absolute;
+      display: flex;
+      width: 100%;
+      top: 8%;
+      height: 5px;
+      color: rgb(250, 244, 244);
+    }
+
+    .container .nav .span {
+      position: absolute;
+      display: flex;
+      text-align: center;
+      font-style: normal;
+      color: #f3f2f2;
+      width: 100%;
+      height: 900px;
+
+    }
+
+    .container .nav .span h2 {
+      position: absolute;
+      display: flex;
+      color: #f3f2f2;
+      font-size: 90px;
+      align-self: center;
+      left: 40%;
+
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .container .nav .span p {
+      position: absolute;
+      display: flex;
+      left: 40%;
+      top: 63%;
+      text-align: center;
+      color: #f3f2f2;
+      font-size: 50px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .container .nav .button {
+      background-color: #f50d0d;
+      display: flex;
+      position: absolute;
+      border-radius: 12px;
+      font-size: 15px;
+      border: 1px;
+      left: 10%;
+      color: #f3f2f2;
+      top: 90%;
+      left: 41%;
+      width: 15%;
+      text-align: center;
+    height: 24px;
+      display: inline-block;
+
+    }
+
+    .container .nav .next1 {
+      display: flex;
+      position: absolute;
+      top: 50%;
+      right: 10px
+
+    }
+
+    .container .nav .next2 {
+      display: flex;
+      position: absolute;
+      top: 50%;
+      left: 10px;
+    }
+
+
+    .container1 {
+      display: flex;
+      position: relative;
+      width: 100%;
+      height: 700px;
+      background-color: rgb(241, 98, 15);
+      top: 90%;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="nav">
+      <div class="logo">
+        <div class="a">
+          <img src="log.png" alt="logo" width="10%">
+        </div>
+        <h1>Study Course</h1>
+        <p>Journey to success </p>
+      </div>
+
+      <div class="navbar">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#courses">Courses</a>
+
+        <div class="dropdown">
+          <button class="dropbtn">Page
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+          </div>
+
+        </div>
+        <a href="#contacts">Contacts</a>
+      </div>
+      <div class="search"><i class="fa-solid fa-magnifying-glass" style="color: #f3f2f2;"></i></div>
+      <div class="log">Login</div>
+
+      <div class="user"><i class="fa-solid fa-user" style="color: #fafafa;"></i> </div>
+      <div class="moon"><i class="fa-regular fa-moon"></i></div>
+      <div class="line">
+        <hr style="width: 100%;height: 0px;">
+      </div>
+
+      <div class="span">
+        <h2>50% Discount on all Popular <br>Courses</h2>
+        <p>Take the first step to your journey to succes with us</p>
+      </div>
+      <button class="button">Ready to get started</button>
+
+      <div class="next1"><i class="fa-solid fa-circle-chevron-right" style="color: #ebeef4;"></i></div>
+      <div class="next2"><i class="fa-solid fa-circle-chevron-right 
+                        fa-rotate-180" style="color: #ebeef4;"></i></div>
+
+    </div>
+
+</body>
+
+</html>

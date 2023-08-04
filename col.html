@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.column {
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+.caption {
+  background-color: purple;
+  color: white;
+  /* padding: 0.1rem; */
+}
+
+.caption h3,
+.caption p {
+  padding: 0.5rem;
+  margin: 0;
+}
+
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+
+@media screen and (max-width: 700px) {
+  .row {
+    flex-direction: column;
+  }
+</style>
+</head>
+<body>
+    <h2>Responsive Three Column Layout</h2>
+<p>Resize the browser window to see the responsive effect (the columns will stack on top of each other instead of floating next to each other, when the screen is less than 600px wide).</p>
+
+<div class="row">
+  <div class="column">
+    <div class="image">
+      <img src="bc.jpeg" alt="arctichare">
+    </div>
+    <div class="caption">
+      <h3>image 1</h3>
+      <p>Info 1</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="image">
+      <img src="bc.jpeg" alt="airplane">
+    </div>
+    <div class="caption">
+      <h3>image 2</h3>
+      <p>Info 2</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="image">
+      <img src="bc.jpeg" alt="baboon">
+    </div>
+    <div class="caption">
+      <h3>Publications</h3>
+      <p>Info 3</p>
+    </div>
+  </div>
+    
+</body>
+</html>
